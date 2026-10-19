@@ -1,0 +1,15 @@
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model / HF cache (downloaded on first run)
+.cache/
+
+# LaTeX build artifacts (report.pdf is kept)
+*.aux
+*.log
+*.out
+*.toc
